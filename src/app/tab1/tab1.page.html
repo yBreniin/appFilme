@@ -1,17 +1,110 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
+  <ion-toolbar color="dark">
+    <ion-title color="light">
+      Filmes
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <!-- Searchbar with a placeholder -->
+  <ion-searchbar placeholder="Buscar Filmes"></ion-searchbar>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-list>
+
+    <ion-item lines="full">
+        <img slot="start" class="film" src="https://upload.wikimedia.org/wikipedia/pt/5/5c/Happy_Feet_Poster.jpg">
+      <ion-label class="ion-text-wrap">
+        <div class="desc">
+          <h3>Happy Feet</h3>
+          <p class="data">24/11/2006 (BR)</p>
+          <ion-badge color="gray">Música</ion-badge>
+          <ion-badge color="gray">Infantil</ion-badge>
+          <br>
+          <ion-badge color="gray">Comédia</ion-badge>
+        </div>
+      </ion-label>
+
+      <ion-chip class="nota-filme" color="warning" outline>
+        <ion-label>4.0</ion-label>
+      </ion-chip>
+    </ion-item>
+    <!--Happy Feet-->
+
+    <ion-item lines="full">
+        <img slot="start" class="film" src="https://upload.wikimedia.org/wikipedia/pt/a/a4/Space_Jam_A_New_Legacy.jpg">
+      <ion-label class="ion-text-wrap">
+        <div class="desc">
+          <h3>Space Jam: Um Novo Legado</h3>
+          <p class="data">15/07/2021 (BR)</p>
+          <ion-badge color="gray">Comédia</ion-badge>
+          <ion-badge color="gray">Animação</ion-badge>
+          <ion-badge color="gray">Fantasia</ion-badge>
+        </div>
+      </ion-label>
+
+      <ion-chip class="nota-filme" color="warning" outline>
+        <ion-label>3.1</ion-label>
+      </ion-chip>
+    </ion-item>
+    <!--Space Jam: Um Novo Legado-->
+
+
+    <ion-item lines="full">
+        <img slot="start" class="film"
+        src="https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg">
+      <ion-label class="ion-text-wrap">
+        <div class="desc">
+          <h3>Vingadores: Ultimato</h3>
+          <p class="data">25/04/2019 (BR)</p>
+          <ion-badge color="gray">Ação</ion-badge>
+          <ion-badge color="gray">Aventura</ion-badge>
+          <ion-badge color="gray">Fantasia</ion-badge>
+          </div>
+      </ion-label>
+
+      <ion-chip class="nota-filme" color="warning" outline>
+        <ion-label>4.7</ion-label>
+      </ion-chip>
+    </ion-item>
+    <!--Vingadores: Ultimato-->
+
+    <ion-item lines="full">
+        <img slot="start" class="film" src="https://br.web.img3.acsta.net/pictures/19/04/03/21/31/0977319.jpg">
+      <ion-label class="ion-text-wrap">
+        <div class="desc">
+          <h3>John Wick 3: Parabellum</h3>
+          <p class="data">16/05/2019 (BR)</p>
+          <ion-badge color="gray">Suspense</ion-badge>
+          <ion-badge color="gray">Crime</ion-badge>
+          <ion-badge color="gray">Neo noir</ion-badge>
+          </div>
+      </ion-label>
+
+      <ion-chip class="nota-filme" color="warning" outline>
+        <ion-label>4.4</ion-label>
+      </ion-chip>
+    </ion-item>
+    <!--John Wick 3: Parabellum-->
+
+    <ion-item lines="full">
+        <img slot="start" class="film" src="https://br.web.img3.acsta.net/pictures/17/10/04/19/01/4966397.jpg">
+      <ion-label class="ion-text-wrap">
+        <div class="desc">
+          <h3>Kimi no na wa(Your Name)</h3>
+          <p class="data">11/10/2017 (BR)</p>
+          <ion-badge color="gray">Anime</ion-badge>
+          <ion-badge color="gray">Romance</ion-badge>
+          <ion-badge color="gray">Fantasia</ion-badge>
+          <ion-badge color="gray">Drama</ion-badge>
+          </div>
+      </ion-label>
+
+      <ion-chip class="nota-filme" color="warning" outline>
+        <ion-label>4.9</ion-label>
+      </ion-chip>
+    </ion-item>
+    <!--Kimi no na wa(Your Name)-->
+
+    </ion-list>
 </ion-content>
