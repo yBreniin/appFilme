@@ -1,9 +1,41 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>johnwick3</ion-title>
+  <ion-toolbar color="dark">
+    <ion-buttons slot="start">
+      <ion-back-button  color="primary"></ion-back-button>
+    </ion-buttons>
+    <ion-title color="primary">Dados do Filme</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+
+  <ion-card class="ion-text-wrap">
+    <ion-card-header>
+      <img src="https://br.web.img3.acsta.net/pictures/19/04/03/21/31/0977319.jpg" alt="Imagem Filme" class="ft-filme">
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-grid>
+        <ion-row>
+          <ion-col size="8"><h1>John Wick 3: Parabellum</h1></ion-col>
+          <ion-col size="4">
+            <ion-chip class="nota-filme" color="success">
+              <ion-label>4.4</ion-label>
+            </ion-chip>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+
+      <h3 class="data">16/05/2019 (BR)</h3>
+
+      <ion-badge color="gray" class="ion-badge">Suspense</ion-badge>
+      <ion-badge color="gray">Crime</ion-badge>
+      <br>
+      <ion-badge color="gray">Neo noir</ion-badge>
+      <br>
+      <ion-button color="success" href="https://overflixhd.com/assistir/gente-grande-2-2013-dublado-online-gratis-hd-1794/" target="_blank">Assistir</ion-button>
+    </ion-card-content>
+
+  </ion-card>
 
 </ion-content>

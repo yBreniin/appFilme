@@ -1,9 +1,41 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>happyfeet</ion-title>
+  <ion-toolbar color="dark">
+    <ion-buttons slot="start">
+      <ion-back-button  color="primary"></ion-back-button>
+    </ion-buttons>
+    <ion-title color="primary">Dados do Filme</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+
+  <ion-card class="ion-text-wrap">
+    <ion-card-header>
+      <img src="https://upload.wikimedia.org/wikipedia/pt/5/5c/Happy_Feet_Poster.jpg" alt="Imagem Filme" class="ft-filme">
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-grid>
+        <ion-row>
+          <ion-col size="8"><h1>Happy Feet</h1></ion-col>
+          <ion-col size="4">
+            <ion-chip class="nota-filme" color="success">
+              <ion-label>4.0</ion-label>
+            </ion-chip>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+
+      <h3 class="data">24/11/2006 (BR)</h3>
+
+      <ion-badge color="gray" class="ion-badge">Música</ion-badge>
+      <ion-badge color="gray">Infantil</ion-badge>
+      <br>
+      <ion-badge color="gray">Comédia</ion-badge>
+      <br>
+      <ion-button color="success" href="https://overflixhd.com/assistir/gente-grande-2-2013-dublado-online-gratis-hd-1794/" target="_blank">Assistir</ion-button>
+    </ion-card-content>
+
+  </ion-card>
 
 </ion-content>
